@@ -64,13 +64,12 @@ html {
 
 }
 
-.email {
-  height: 30vh;
+.contact-me {
+  min-height: 30vh;
   background: #1B2E3A;
   margin-top: 10vh;
   color: #bdbdbd;
-  padding-top: 7vh;
-  padding-bottom: 15vh;
+  padding-top: 10vh;
 }
 
 .project-desc {
