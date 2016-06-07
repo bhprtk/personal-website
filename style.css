@@ -102,6 +102,17 @@ html {
   }
 }
 
+@media (max-width: 480px) {
+  .contact-me {
+    min-height: 30vh;
+    background: #1B2E3A;
+    margin-top: 10vh;
+    color: #bdbdbd;
+    padding-top: 50px;
+    /*padding-bottom: 10vh;*/
+  }
+}
+
 .contact-button {
   margin: 10px;
   width: 175px;
