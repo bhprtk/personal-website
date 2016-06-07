@@ -72,33 +72,49 @@ html {
   padding-top: 75px;
 }
 
+.project-desc {
+  color: #696969;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 .media-object {
   height: 300px;
   width: auto;
 }
 
-.fa-social {
-  font-size: 64px;
+.fa-5x {
+  /*font-size: 64px;*/
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
-.fa-social:hover {
+.fa-5x:hover {
   text-decoration: none;
 }
-.fa-social:link {
+.fa-5x:link {
   text-decoration: none;
 }
-.fa-social:visited {
+.fa-5x:visited {
   text-decoration: none;
 }
-.fa-social:active {
+.fa-5x:active {
   text-decoration: none;
+}
+
+.contact-button {
+  margin: 10px;
+  width: 175px;
 }
 
 .media-body {
   padding-top: 20px;
   padding-left: 20px;
+}
+
+.media-heading {
+  padding-bottom: 10px;
 }
 
 
