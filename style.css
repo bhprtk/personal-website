@@ -74,6 +74,17 @@ html {
   /*padding-bottom: 10vh;*/
 }
 
+@media (max-width: 480px) {
+  .contact-me {
+    min-height: 30vh;
+    background: #1B2E3A;
+    margin-top: 10vh;
+    color: #bdbdbd;
+    padding-top: 50px;
+    /*padding-bottom: 10vh;*/
+  }
+}
+
 .project-desc {
   color: #696969;
   margin-top: 20px;
@@ -111,11 +122,7 @@ html {
   /*margin-bottom: 10vh;*/
 }
 
-@media (max-width: 480px) {
-  .media-body {
-    padding-left: 20px;
-  }
-}
+
 
 .media-body {
   padding-top: 20px;
