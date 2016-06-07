@@ -74,6 +74,23 @@ html {
   /*padding-bottom: 10vh;*/
 }
 
+@media (max-width: 380px) {
+
+  .contact-me {
+    min-height: 30vh;
+    background: #1B2E3A;
+    margin-top: 10vh;
+    color: #bdbdbd;
+    padding-top: 5vh;
+    /*padding-bottom: 10vh;*/
+  }
+
+  .contact-button {
+    max-width: 120px;
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 480px) {
   .contact-me {
     min-height: 30vh;
@@ -83,6 +100,12 @@ html {
     padding-top: 50px;
     /*padding-bottom: 10vh;*/
   }
+}
+
+.contact-button {
+  margin: 10px;
+  width: 175px;
+  /*margin-bottom: 10vh;*/
 }
 
 .project-desc {
@@ -116,11 +139,6 @@ html {
   text-decoration: none;
 }
 
-.contact-button {
-  margin: 10px;
-  width: 175px;
-  /*margin-bottom: 10vh;*/
-}
 
 
 
