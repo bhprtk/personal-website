@@ -61,12 +61,46 @@ html {
 
 #contact {
   padding-top: 50px;
+
 }
+
+.email {
+  height: 30vh;
+  background: #1B2E3A;
+  margin-top: 10vh;
+  color: #bdbdbd;
+  padding-top: 75px;
+}
+
 
 .media-object {
   height: 300px;
   width: auto;
 }
+
+.fa-social {
+  font-size: 64px;
+  margin-right: 20px;
+}
+
+.fa-social:hover {
+  text-decoration: none;
+}
+.fa-social:link {
+  text-decoration: none;
+}
+.fa-social:visited {
+  text-decoration: none;
+}
+.fa-social:active {
+  text-decoration: none;
+}
+
+.media-body {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
 
 .name-info {
   /*font-family: 'Sigmar One', cursive;*/
