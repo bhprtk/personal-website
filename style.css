@@ -1,0 +1,84 @@
+/*body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}*/
+
+@media(min-width:767px) {
+    .navbar {
+        /*background: transparent;*/
+        /*border-color: transparent;*/
+        /*padding: 20px 0;*/
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+}
+
+
+
+
+.section {
+  min-height: 100vh;
+}
+
+
+#home {
+  background: url('http://www.redtankstudio.com/website/images/slider1.jpg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  padding-top: 30vh;
+}
+
+
+#skills {
+  min-height: 100vh;
+  padding-top: 50px;
+  /*background: #e5e5e5;*/
+  /*height: 100vh;*/
+}
+
+#main-pic {
+  margin-top: -15px;
+	width: 50px;
+	height: 50px;
+}
+
+#projects {
+  padding-top: 50px;
+  background: #fafafa;
+}
+
+#contact {
+  padding-top: 50px;
+}
+
+.media-object {
+  height: 300px;
+  width: auto;
+}
+
+.name-info {
+  /*font-family: 'Sigmar One', cursive;*/
+  /*font-family: 'Chewy', cursive;*/
+  /*font-family: 'Bubblegum Sans', cursive;*/
+}
+
+.thumbnail {
+  /*background: #e5e5e5;*/
+  border: none;
+}
+
+.thumbnail>img {
+  height: 100px;
+}
