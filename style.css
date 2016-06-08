@@ -100,6 +100,11 @@ html {
     padding-top: 5vh;
     padding-bottom: 5vh;
   }
+
+  .contact-button {
+    max-width: 120px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -110,6 +115,11 @@ html {
     color: #bdbdbd;
     padding-top: 5vh;
     padding-bottom: 5vh;
+  }
+
+  .contact-button {
+    max-width: 120px;
+    font-size: 12px;
   }
 }
 
