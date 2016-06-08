@@ -98,7 +98,7 @@ html {
     margin-top: 10vh;
     color: #bdbdbd;
     padding-top: 5vh;
-    padding-bottom: 15vh;
+    /*padding-bottom: 15vh;*/
   }
 }
 
@@ -108,8 +108,8 @@ html {
     background: #1B2E3A;
     margin-top: 10vh;
     color: #bdbdbd;
-    padding-top: 50px;
-    /*padding-bottom: 10vh;*/
+    padding-top: 5vh;
+    padding-bottom: 5vh;
   }
 }
 
