@@ -17,3 +17,5 @@ $(function() {
         event.preventDefault();
     });
 });
+
+// $('.parallax-window').parallax({imageSrc: '/path/to/image.jpg'});

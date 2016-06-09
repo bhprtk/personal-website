@@ -34,9 +34,9 @@ html {
 
 
 #home {
-  background: url('images/wallpaper.jpg');
+  /*background: url('images/wallpaper.jpg');
   background-repeat:no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%;*/
   color: white;
   padding-top: 30vh;
 }
