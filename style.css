@@ -58,10 +58,12 @@ html {
 #projects {
   padding-top: 50px;
   background: #fafafa;
+  padding-bottom: 50px;
 }
 
 #contact {
   padding-top: 50px;
+  background: #fafafa;
 
 }
 
@@ -186,4 +188,14 @@ html {
 
 .thumbnail>img {
   height: 100px;
+}
+
+.reflecti {
+  height: 500px;
+  width: 250px;
+}
+
+.media-right {
+  height: 500px;
+  width: 500px;
 }
