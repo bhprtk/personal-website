@@ -193,9 +193,15 @@ html {
 .reflecti {
   height: 500px;
   width: 250px;
+  margin-left: 100px;
 }
 
 .media-right {
   height: 500px;
   width: 500px;
+}
+
+.media {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
