@@ -26,6 +26,25 @@ html {
 
 
 
+.github-button {
+  border: 3px solid #fff;
+  border-radius: 0;
+  background: transparent;
+  color: #fff;
+  padding-top: -20px;
+}
+
+a.github-button:hover {
+  color: #fff;
+}
+a.github-button:visited {
+  color: #fff;
+}
+
+.button-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
 
 .section {
   min-height: 100vh;
