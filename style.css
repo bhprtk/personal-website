@@ -46,6 +46,10 @@ a.github-button:visited {
   font-size: 20px;
 }
 
+.roboto-font {
+  font-family: 'Roboto', sans-serif;
+}
+
 .section {
   min-height: 100vh;
 }
