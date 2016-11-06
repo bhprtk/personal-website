@@ -46,21 +46,14 @@ a.github-button:visited {
   width: 100;
 }
 
-
 #home {
-  /*background: url('images/wallpaper.jpg');
-  background-repeat:no-repeat;
-  background-size: 100% 100%;*/
   color: white;
   padding-top: 30vh;
 }
 
-
 #skills {
   min-height: 100vh;
   padding-top: 50px;
-  /*background: #e5e5e5;*/
-  /*height: 100vh;*/
 }
 
 #main-pic {
@@ -87,11 +80,9 @@ a.github-button:visited {
   margin-top: 10vh;
   color: #bdbdbd;
   padding-top: 10vh;
-  /*padding-bottom: 10vh;*/
 }
 
 @media (max-width: 380px) {
-
   .contact-me {
     min-height: 30vh;
     background: #1B2E3A;
@@ -100,7 +91,6 @@ a.github-button:visited {
     padding-top: 5vh;
     padding-bottom: 5vh;
   }
-
   .contact-button {
     max-width: 120px;
     font-size: 12px;
@@ -142,7 +132,6 @@ a.github-button:visited {
 .contact-button {
   margin: 10px;
   width: 175px;
-  /*margin-bottom: 10vh;*/
 }
 
 .project-desc {
@@ -151,14 +140,12 @@ a.github-button:visited {
   margin-bottom: 20px;
 }
 
-
 .media-object {
   height: 300px;
   width: auto;
 }
 
 .fa-5x {
-  /*font-size: 64px;*/
   margin-right: 20px;
   margin-bottom: 10px;
 }
@@ -166,18 +153,18 @@ a.github-button:visited {
 .fa-5x:hover {
   text-decoration: none;
 }
+
 .fa-5x:link {
   text-decoration: none;
 }
+
 .fa-5x:visited {
   text-decoration: none;
 }
+
 .fa-5x:active {
   text-decoration: none;
 }
-
-
-
 
 .media-body {
   padding-top: 20px;
@@ -188,15 +175,7 @@ a.github-button:visited {
   padding-bottom: 10px;
 }
 
-
-.name-info {
-  /*font-family: 'Sigmar One', cursive;*/
-  /*font-family: 'Chewy', cursive;*/
-  /*font-family: 'Bubblegum Sans', cursive;*/
-}
-
 .thumbnail {
-  /*background: #e5e5e5;*/
   border: none;
 }
 
@@ -210,7 +189,6 @@ a.github-button:visited {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*margin-left: 100px;*/
 }
 
 .media-right {
