@@ -9,6 +9,20 @@
   }
 }
 
+.progress {
+  background: #CFD8DC;
+}
+
+.progress-bar {
+  background: #37474F;
+}
+
+
+.skills-image {
+  height: 75px;
+  width: 75px
+}
+
 .parallax {
   background-image: url("images/wallpaper.jpg");
   height: 100vh;
@@ -16,7 +30,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	/*margin-top: -10px;*/
 }
 
 .tech-used {
