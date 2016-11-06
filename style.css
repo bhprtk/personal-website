@@ -1,33 +1,20 @@
-/*body {
-    width: 100%;
-    height: 100%;
-}
-
-html {
-    width: 100%;
-    height: 100%;
-}*/
-
 @media(min-width:767px) {
-    .navbar {
-        /*background: transparent;*/
-        /*border-color: transparent;*/
-        /*padding: 20px 0;*/
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-
+  .navbar {
+      -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+      padding: 0;
+  }
 }
 
-
+.tech-used {
+  font-size: 18px
+}
 
 .github-button {
-  border: 3px solid #fff;
+  border: 4px solid #fff;
   border-radius: 0;
   background: transparent;
   color: #fff;
@@ -54,6 +41,10 @@ a.github-button:visited {
   min-height: 100vh;
 }
 
+.project-image {
+  height: 100;
+  width: 100;
+}
 
 
 #home {

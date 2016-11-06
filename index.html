@@ -27,227 +27,292 @@
 
     <script src="main.js"></script>
   </head>
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll" href="#page-top">
-            <img id="main-pic" src="images/2d.png">
 
-          </a>
-        </div>
+  <!--__________________________________body_________________________________________________-->
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a class="page-scroll" href="#projects">Projects</a></li>
-            <li><a class="page-scroll" href="#skills">Skills</a></li>
-            <li><a class="page-scroll" href="#contact">About</a></li>
-            <!-- <li><a href="https://medium.com/@lazy.monk.13" target="_blank">Blog</a></li> -->
-            <li><a href="resume.pdf" target="_blank">Résumé</a></li>
-          </ul>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+  <!--__________________________________navbar_______________________________________________-->
 
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <img id="main-pic" src="images/2d.png">
+      </a>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a class="page-scroll" href="#projects">Projects</a></li>
+        <li><a class="page-scroll" href="#skills">Skills</a></li>
+        <li><a class="page-scroll" href="#contact">About</a></li>
+        <!-- <li><a href="https://medium.com/@lazy.monk.13" target="_blank">Blog</a></li> -->
+        <li><a href="resume.pdf" target="_blank">Résumé</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="images/wallpaper.jpg">
+  </div><!-- /.container-fluid -->
+</nav>
 
-      <section class="section text-center" id="home">
-        <div class="name-info">
-          <h2 class="roboto-font">pratik Bhandari</h2>
-          <hr width=500/>
-          <h1 class="roboto-font">Fullstack Javascript Developer</h1>
-          <hr width=500/>
-        </div>
+<!--__________________________________navbar end_______________________________________________-->
+
+<!--__________________________________splash page_______________________________________________-->
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/wallpaper.jpg">
+
+  <section class="section text-center" id="home">
+    <div class="name-info">
+      <h2 class="roboto-font">pratik Bhandari</h2>
+      <hr width=500/>
+      <h1 class="roboto-font">Fullstack Javascript Developer</h1>
+      <hr width=500/>
+    </div>
 <!-- <span class="fa fa-github">  -->
-        <a href="https://github.com/bhprtk" target="_blank" style="margin-top: 50px;" class="btn github-button">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PEO-octocat-4.svg/1000px-PEO-octocat-4.svg.png" width=50 height=50 /><span class="button-font"><strong> GITHUB PROFILE</strong></span></span>
+    <a href="https://github.com/bhprtk" target="_blank" style="margin-top: 50px;" class="btn github-button">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PEO-octocat-4.svg/1000px-PEO-octocat-4.svg.png" width=50 height=50 /><span class="button-font"><strong> GITHUB PROFILE</strong></span></span>
+    </a>
+
+  </section>
+
+</div>
+
+<!--__________________________________splash page end_______________________________________________-->
+
+<!--__________________________________projects section_______________________________________________-->
+
+<section class="section" id="projects">
+  <div class="container">
+    <h1  class="text-center roboto-font">personal projects</h1>
+    <hr />
+
+<!--__________________________________Gym Finder_______________________________________________-->
+
+<div class="media">
+  <div class="media-left col-md-6 col-sm-12 col-xs-12">
+    <a href="https://gym-finder.herokuapp.com/#/" target="_blank">
+      <img class="img-responsive" src="images/gymFinder.png">
+    </a>
+  </div>
+  <div class="media-body">
+    <h3 class="media-heading">
+      <a href="https://gym-finder.herokuapp.com/#/" target="_blank">
+        Gym Finder
+      </a>
+
+      <span class="label label-success new-label">new</span>
+    </h3>
+
+    <div class="tech-used">
+      <span class="label label-default">ExpressJs</span>
+      <span class="label label-default">ReactJs</span>
+      <span class="label label-default">Redux</span>
+      <span class="label label-default">NodeJs</span>
+      <span class="label label-default">Google Maps API</span>
+      <span class="label label-default">Yelp API</span>
+      <span class="label label-default">Heroku</span>
+      <span class="label label-default">Webpack</span>
+    </div>
+
+    <p align="justify" class="project-desc">
+      Gym Finder is an app that helps you find gyms near your location or a location of your choice. It utilizes
+      the Google Maps Autocomplete to find a location and uses the Yelp API to find gyms near you. It also uses
+      the Google Maps Distance Matrix to find the distance between a gym and you. It is an open source project so any one who wish to create their own finder
+      could simply change a line of code in the yelp API file.
+    </p>
+
+  <div>
+    <a role="button" class="btn btn-default" href="https://github.com/bhprtk/somethingFinder" target="_blank">
+      <span class="fa fa-github"></span>
+      View on Github
+    </a>
+
+    <a role="button" class="btn btn-primary" href="https://gym-finder.herokuapp.com/#/" target="_blank">
+      <span class="fa fa-film"></span>
+      Checkout website
+    </a>
+  </div>
+
+  </div>
+</div>
+
+<hr />
+
+<!--__________________________________Gym Finder end_______________________________________________-->
+
+<!--__________________________________Interlanguage Chat_______________________________________________-->
+
+    <div class="media">
+    <div class="media-left col-md-6 col-sm-12 col-xs-12">
+      <a href="https://interlanguagechat.herokuapp.com/#/" target="_blank">
+        <img class="img-responsive" src="images/interlanguagechat.png" height=100>
+
+      </a>
+    </div>
+    <div class="media-body">
+      <h3 class="media-heading">
+        <a href="https://interlanguagechat.herokuapp.com/#/" target="_blank">
+          Inter Language Chat
         </a>
+      </h3>
 
-      </section>
+      <div class="tech-used">
+        <span class="label label-default">SocketIO</span>
+        <span class="label label-default">ExpressJs</span>
+        <span class="label label-default">ReactJs</span>
+        <span class="label label-default">NodeJs</span>
+        <span class="label label-default">Google Translate API</span>
+        <span class="label label-default">Heroku</span>
+        <span class="label label-default">Webpack</span>
+      </div>
 
+      <p align="justify" class="project-desc">
+        Inter Language Chat is a chat app that lets you join the chat room and speak in your language to
+        people who speak other languages. For now, it supports English and Spanish. Join the chat room and
+        try out the app.
+      </p>
+
+
+
+    <div>
+
+      <a role="button" class="btn btn-default" href="https://github.com/lazy-monk/language-chat" target="_blank">
+        <span class="fa fa-github"></span>
+        View on Github
+      </a>
+
+      <a role="button" class="btn btn-primary" href="https://interlanguagechat.herokuapp.com/#/" target="_blank">
+        <span class="fa fa-film"></span>
+        Checkout website
+      </a>
     </div>
 
 
-    <section class="section" id="projects">
-      <div class="container">
-        <h1  class="text-center">Projects</h1>
 
-        <div class="media">
-        <div class="media-left col-md-6 col-sm-12 col-xs-12">
-          <a href="https://interlanguagechat.herokuapp.com/#/" target="_blank">
-            <img class="img-responsive" src="images/interlanguagechat.png">
+    </div>
+  </div>
 
-          </a>
-        </div>
-        <div class="media-body">
-          <h3 class="media-heading">
-            <a href="https://interlanguagechat.herokuapp.com/#/" target="_blank">
-              Inter Language Chat
-            </a>
+  <hr>
 
-            <span class="label label-success new-label">new</span>
-          </h3>
+  <div class="media">
+  <div class="media-left col-md-6 col-sm-12 col-xs-12">
+    <a href="https://meme-hub.herokuapp.com/#/" target="_blank">
+      <img class="img-responsive" src="images/meme-hub.png">
 
-          <div class="tech-used">
-            <span class="label label-default">SocketIO</span>
-            <span class="label label-default">ExpressJs</span>
-            <span class="label label-default">ReactJs</span>
-            <span class="label label-default">NodeJs</span>
-            <span class="label label-default">Google Translate API</span>
-            <span class="label label-default">Heroku</span>
-            <span class="label label-default">Webpack</span>
-          </div>
+    </a>
+  </div>
+  <div class="media-body">
+    <h3 class="media-heading">
+      <a href="https://meme-hub.herokuapp.com/#/" target="_blank">
+        Meme hub
+      </a>
+    </h3>
 
-          <p align="justify" class="project-desc">
-            Inter Language Chat is a chat app that lets you join the chat room and speak in your language to
-            people who speak other languages. For now, it supports English and Spanish. Join the chat room and
-            try out the app.
-          </p>
+    <div class="tech-used">
+      <span class="label label-default">MongoDb</span>
+      <span class="label label-default">ExpressJs</span>
+      <span class="label label-default">AngularJs</span>
+      <span class="label label-default">NodeJs</span>
+      <span class="label label-default">User login</span>
+      <span class="label label-default">AWS S3</span>
+      <span class="label label-default">Heroku</span>
+    </div>
 
-
-
-        <div>
-
-          <a role="button" class="btn btn-default" href="https://github.com/lazy-monk/language-chat" target="_blank">
-            <span class="fa fa-github"></span>
-            View on Github
-          </a>
-
-          <a role="button" class="btn btn-primary" href="https://interlanguagechat.herokuapp.com/#/" target="_blank">
-            <span class="fa fa-film"></span>
-            Checkout website
-          </a>
-        </div>
+    <p align="justify" class="project-desc">
+      Meme hub is an image sharing web app where you can share funny images by uploading it from your computer
+      or through an image url. It basically is a 9gag clone which lets you like and comment pictures shared by other users. The app is built using the MEAN stack
+      and uses Amazon AWS S3 services to store the static images.
+    </p>
 
 
 
-        </div>
-      </div>
+  <div>
 
-      <hr>
+    <a role="button" class="btn btn-default" href="https://github.com/lazy-monk/meme-app" target="_blank">
+      <span class="fa fa-github"></span>
+      View on Github
+    </a>
 
-      <div class="media">
+    <a role="button" class="btn btn-primary" href="https://meme-hub.herokuapp.com/#/" target="_blank">
+      <span class="fa fa-film"></span>
+      Checkout website
+    </a>
+  </div>
+
+
+
+  </div>
+</div>
+
+    <div class="media">
+
       <div class="media-left col-md-6 col-sm-12 col-xs-12">
-        <a href="https://meme-hub.herokuapp.com/#/" target="_blank">
-          <img class="img-responsive" src="images/meme-hub.png">
-
-        </a>
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading">
-          <a href="https://meme-hub.herokuapp.com/#/" target="_blank">
-            Meme hub
+          <a href="https://www.reflecti.xyz" target="_blank">
+            <img class="img-responsive reflecti" src="images/reflecti2.png">
           </a>
-        </h3>
-
-        <div class="tech-used">
-          <span class="label label-default">MongoDb</span>
-          <span class="label label-default">ExpressJs</span>
-          <span class="label label-default">AngularJs</span>
-          <span class="label label-default">NodeJs</span>
-          <span class="label label-default">User login</span>
-          <span class="label label-default">AWS S3</span>
-          <span class="label label-default">Heroku</span>
-        </div>
-
-        <p align="justify" class="project-desc">
-          Meme hub is an image sharing web app where you can share funny images by uploading it from your computer
-          or through an image url. It basically is a 9gag clone which lets you like and comment pictures shared by other users. The app is built using the MEAN stack
-          and uses Amazon AWS S3 services to store the static images.
-        </p>
-
-
-
-      <div>
-
-        <a role="button" class="btn btn-default" href="https://github.com/lazy-monk/meme-app" target="_blank">
-          <span class="fa fa-github"></span>
-          View on Github
-        </a>
-
-        <a role="button" class="btn btn-primary" href="https://meme-hub.herokuapp.com/#/" target="_blank">
-          <span class="fa fa-film"></span>
-          Checkout website
-        </a>
       </div>
 
+    <div class="media-body">
+      <h3 class="media-heading">
+        <a href="https://www.reflecti.xyz" target="_blank">
+          Reflecti
+        </a>
+      </h3>
 
-
+      <div class="tech-used">
+        <span class="label label-default">MongoDb</span>
+        <span class="label label-default">ExpressJs</span>
+        <span class="label label-default">React Native</span>
+        <span class="label label-default">Flux</span>
+        <span class="label label-default">NodeJs</span>
+        <span class="label label-default">Coudinary</span>
+        <span class="label label-default">AWS S3</span>
+        <span class="label label-default">ES6</span>
+        <span class="label label-default">Microsoft Emotion API</span>
       </div>
+
+      <p align="justify" class="project-desc">
+        Reflecti is a social media where you can view vines form the public vine api and capture
+        your emotions through a camera and display it as reactions for other people to see. It is
+        an alternative approach to display your actual reactions in contrast to classic likes and comments.
+      </p>
+
+
+
+
+    <div>
+
+      <a role="button" class="btn btn-default" href="https://github.com/Reflecti/reflecti-ios" target="_blank">
+        <span class="fa fa-github"></span>
+        View on Github
+      </a>
+
+      <a role="button" class="btn btn-primary" href="http://www.reflecti.xyz" target="_blank">
+        <span class="fa fa-film"></span>
+        Checkout website
+      </a>
     </div>
 
-        <div class="media">
-
-          <div class="media-left col-md-6 col-sm-12 col-xs-12">
-              <a href="https://www.reflecti.xyz" target="_blank">
-                <img class="img-responsive reflecti" src="images/reflecti2.png">
-              </a>
-          </div>
-
-        <div class="media-body">
-          <h3 class="media-heading">
-            <a href="https://www.reflecti.xyz" target="_blank">
-              Reflecti
-            </a>
-          </h3>
-
-          <div class="tech-used">
-            <span class="label label-default">MongoDb</span>
-            <span class="label label-default">ExpressJs</span>
-            <span class="label label-default">React Native</span>
-            <span class="label label-default">Flux</span>
-            <span class="label label-default">NodeJs</span>
-            <span class="label label-default">Coudinary</span>
-            <span class="label label-default">AWS S3</span>
-            <span class="label label-default">ES6</span>
-            <span class="label label-default">Microsoft Emotion API</span>
-          </div>
-
-          <p align="justify" class="project-desc">
-            Reflecti is a social media where you can view vines form the public vine api and capture
-            your emotions through a camera and display it as reactions for other people to see. It is
-            an alternative approach to display your actual reactions in contrast to classic likes and comments.
-          </p>
 
 
+    </div>
 
 
-        <div>
-
-          <a role="button" class="btn btn-default" href="https://github.com/Reflecti/reflecti-ios" target="_blank">
-            <span class="fa fa-github"></span>
-            View on Github
-          </a>
-
-          <a role="button" class="btn btn-primary" href="http://www.reflecti.xyz" target="_blank">
-            <span class="fa fa-film"></span>
-            Checkout website
-          </a>
-        </div>
+  </div>
 
 
+  </div>
+</section>
 
-        </div>
-
-
-      </div>
-
-
-      </div>
-    </section>
-
-
+<!--__________________________________project section end_______________________________________________-->
 
       <section class="text-center" id="skills">
         <div class="container">
