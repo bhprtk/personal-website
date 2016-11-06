@@ -9,6 +9,16 @@
   }
 }
 
+.parallax {
+  background-image: url("images/wallpaper.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	/*margin-top: -10px;*/
+}
+
 .tech-used {
   font-size: 18px
 }
