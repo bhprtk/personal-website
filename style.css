@@ -50,6 +50,7 @@
 
 a.github-button:hover {
   color: #fff;
+  background: #78909C;
 }
 a.github-button:visited {
   color: #fff;
